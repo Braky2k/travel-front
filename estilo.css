@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1513581166391-887a96ddeafd?ixlib=rb-4.0.3);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.login a {
+    /*Deixa o texto em maiúsculo*/
+    text-transform: uppercase;
+    /*Tirar o sublinhado*/
+    text-decoration: none;
+    /*Aumenta o tamanho da fonte*/
+    font-size: 35px;
+    /*Altera a fonte das caractéres*/
+    font-family: 'Indie Flower', cursive;
+    /*Modifica a grossura das caractéres*/
+    font-weight: 900;
+    /*Cor do texto*/
+    color: rgb(76, 71, 76);
+    /*Cor do fundo da letra*/
+    background-color: rgb(197, 197, 197);
+    /*Espaçamento interno*/
+    padding: 10px 30px;
+    /*Arredonda da borda*/
+    border-radius: 15px;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 90px;
+    color: beige;
+    text-shadow: 3px 2px black;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    text-align: center;
+    line-height: 80px;
+}
+.info p {
+    font-size: 30px;
+    color: beige;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-family: 'Indie Flowe', cursive;
+    font-weight: 500;
+    text-align: center;
+}
+.redes {
+
+}
+.redes img {
+    width: 40px;
+}
+#inputnome {
+    /*Largura*/
+    width: 550px;
+    /*Altura*/
+    height: 40px;
+    /*Arredonda borda*/
+    border-radius: 15px;
+    /*Retirar borda preta*/
+    border-style: none;
+}
+#inputemail {
+    /*Largura*/
+    width: 340px;
+    /*Altura*/
+    height: 40px;
+    /*Arredonda borda*/
+    border-radius: 15px;
+    /*Retirar borda preta*/
+    border-style: none;
+}
+.botaoLogin {
+    /*Largura*/
+    width: 200px;
+    /*Altura*/
+    height: 40px;
+    /*Cor*/
+    color: beige;
+    /*Cor de fundo*/
+    background-color: rgb(76, 71, 76);
+    /*Arredondar borda*/
+    border-radius: 15px;
+    /*Tamanho das letras*/
+    font-size: 30px;
+    /*Maisculo*/
+    text-transform: uppercase;
+    /*Tirar a borda*/
+    border-style: none;
+}
+.input {
+    /*Ajuste de posicionamento*/
+    display: flex;
+    /*Direção dos itens em coluna*/
+    flex-direction: column;
+    /*Alinhas no centro*/
+    align-items: center;
+    /*Margem do topo*/
+    margin-top: 30px;
+}
+.entrarEmail {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+}
